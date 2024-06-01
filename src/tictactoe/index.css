@@ -1,0 +1,41 @@
+.game {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.board-cell {
+  cursor: pointer;
+  padding: 3px;
+  height: 40px;
+  aspect-ratio: 1;
+  border: 1px solid black;
+  align-items: center;
+}
+
+.winning-cell {
+  background-color: green;
+}
+
+.game-info {
+  margin-left: 10px;
+}
+
+.game-history {
+  margin-left: 5px;
+}
+
+.move-details {
+  margin: 0 5px;
+}
